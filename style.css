@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  transition: background-color 0.5s ease;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.gallery img {
+  width: 400px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  transition: background-color 0.3s ease;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.colorBtn {
+  margin-right: 10px;
+}
+
+@keyframes fadeSuccess {
+  0% { color: transparent; }
+  100% { color: green; }
+}
+
+.fade-in {
+  animation: fadeSuccess 1s forwards;
+}

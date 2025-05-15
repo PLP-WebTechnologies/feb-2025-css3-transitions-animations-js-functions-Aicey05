@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DreamStay – Book Your Home Away From Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🏡 DreamStay</h1>
+    <p>Your dream home is a click away</p>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <img id="houseImage" src="https://via.placeholder.com/400x250" alt="House Preview" />
+      <button id="nextImage">Next Image</button>
+    </section>
+
+    <section class="booking-form">
+      <h2>Book a House</h2>
+      <form id="houseForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required />
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="feedback"></p>
+    </section>
+
+    <section class="settings">
+      <h2>Choose Your Theme Color</h2>
+      <button class="colorBtn" data-color="#e74c3c">Red</button>
+      <button class="colorBtn" data-color="#2ecc71">Green</button>
+      <button class="colorBtn" data-color="#3498db">Blue</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
